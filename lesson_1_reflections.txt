@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Cualquier error que se haya producido entre dos versiones
+se puede detectar como un cambio en el texto.
+Siempre que el texto no haya cambiado sustancialmente entre versiones
+se puede acotar mucho más fácilmente el error del código.
+Por otro lado, no tengo claro que algunos errores puedan ser detectados con este sistema,
+pues quizás requieran poder acceder al código completo de una función.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Puedes llevar un seguimiento de todos los cambios en el código y puedes reutilizar código que hayas descartado en algún paso previo para otros programas.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Elegir cuando grabar permite que cada commit sea compilable y tenga sentido como entidad individual.
+Por otro lado, el hacer grabaciones periódicas automáticamente sirve como copia de seguridad en caso de olvidos.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+
+Git está diseñado específicamente para tratamiento de control de versiones,
+mientras que Google Docs tiene un objetivo más general y sólo ofrece un historial de cambios individual.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+De una forma muy elemental.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+No me preocupa perder código o cambiarlo a algo que luego no funcione pues tengo las copias de seguridad de los pasos previos.
+Me permite experimentar más de lo que normalmente haría.
+Me evita tener que recurrir a comentarios para anular código sobre la marcha.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+No tengo nada pensado.
+En el futuro planeo usarlo para Android Studio.
+
+
+
