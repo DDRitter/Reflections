@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git crea la carpeta .git que contendrá el historial con los commits.
+Realmente no veo la necesidad, pues esa carpeta se podría crear cuando se hiciera el primer commit.
+Imagino que se hace para mantener cierto control y que no se creen commits por error
+en carpetas en las que no se tiene como objetivo hacer un seguimento.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Nos da más flexibilidad al permitirnos crear commits de parte de nuestro directorio
+en lugar de hacerlo del conjunto completo de archivos cada vez.
+Nos permite separar commits en función de la lógica que queramos.
+
+
