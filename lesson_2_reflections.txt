@@ -14,3 +14,7 @@ en lugar de hacerlo del conjunto completo de archivos cada vez.
 Nos permite separar commits en función de la lógica que queramos.
 
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Usando git diff sin argumentos puedo ver los cambios que voy a aplicar cada vez que haga un commit al tener el paso intermedio en el staging area.
