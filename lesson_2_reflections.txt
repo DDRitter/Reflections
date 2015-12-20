@@ -28,3 +28,15 @@ How would branches help?
 Son útiles para separar experimentos o modificaciones complejas que van a
 requerir múltiples commits de la rama principal. No tengo muy claro cómo
 se solucionarán los posteriores conflictos al aplicar merges.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+Los veo muy caducos y espero que haya otro sistema más gráfico
+para visualizar commits, branches y estructura.
+Me cuesta creer que se pueda trabajar a este nivel con programas
+complejos con múltiples ramas y bifurcaciones.
+
+
+
