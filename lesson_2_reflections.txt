@@ -40,3 +40,11 @@ complejos con múltiples ramas y bifurcaciones.
 
 
 
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Se crea un nuevo commit con el resultado de la fusión.
+Se representa uniendo los dos padres al nuevo commit, porque hereda de ambos.
+
+
+
