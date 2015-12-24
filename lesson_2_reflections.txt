@@ -48,3 +48,9 @@ Se representa uniendo los dos padres al nuevo commit, porque hereda de ambos.
 
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is optimal when the two commits have changes on different areas of the code,
+but I'm not so sure about the conflict resolution system vs manual.
+I'm also worried about the possibility of leaving junk parts of code when
+you merge, like an unused function.
