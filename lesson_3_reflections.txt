@@ -2,3 +2,21 @@ When would you want to use a remote repository rather than keeping all your work
 
 When I have multiple physical work locations and I want to keep track of all the work.
 Also, when I work in a collaborative project with other people.
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+The remote repository status does not need to be a working version at any times.
+It's best to let the user decide when the remote repository has all the files ready for download.
+
+
+
+
+
+
+
+Commands:
+
+git push origin master  |  Publica los cambios en github
+git pull origin master  |  Descarga los cambios de github a la copia local
