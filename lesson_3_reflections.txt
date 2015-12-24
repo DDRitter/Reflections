@@ -12,6 +12,12 @@ It's best to let the user decide when the remote repository has all the files re
 
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are the way github separates a repository to allow us continue a project in which we don't have permission to commit.
+Clones are just copies of repositories and can be either local or from github.
+Branches are divergencies from the main development, which allow us to develop features and experiment withous affecting the main workflow.
+
 
 
 
@@ -20,3 +26,4 @@ Commands:
 
 git push origin master  |  Publica los cambios en github
 git pull origin master  |  Descarga los cambios de github a la copia local
+git reset --hard <commit>  |  Totally forces undo changes up until <commit>
