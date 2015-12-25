@@ -20,10 +20,19 @@ Branches are divergencies from the main development, which allow us to develop f
 
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can download the remote state of a project and then work offline with the stored data until you can upload the new rework, merge, etc.
+
+
+
+
+
 
 
 Commands:
 
-git push origin master  |  Publica los cambios en github
-git pull origin master  |  Descarga los cambios de github a la copia local
+git push origin master     |  Publica los cambios en github
+git pull origin master     |  Descarga los cambios de github a la copia local
 git reset --hard <commit>  |  Totally forces undo changes up until <commit>
+git fetch                  |  Updates the local copy of github with the cloud content
