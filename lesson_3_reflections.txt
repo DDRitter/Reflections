@@ -26,7 +26,10 @@ You can download the remote state of a project and then work offline with the st
 
 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+Using only Git you could manage with some other tool like Dropbox to share the projec folder.
+Using only GitHub it could be harder testing checkouts, specially programs. 
 
 
 
