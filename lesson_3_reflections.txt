@@ -33,6 +33,17 @@ Using only GitHub it could be harder testing checkouts, specially programs.
 
 
 
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+Separated branches are useful for testing purposes or when several people work on different things from the master branch.
+This is the best way to keep changes organized and to keep the master branch clean of temporary or experimental content, because you only merge what you have approved in your team.
+
+
+
+
+
 Commands:
 
 git push origin master     |  Publica los cambios en github
